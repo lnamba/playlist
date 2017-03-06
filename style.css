@@ -31,21 +31,6 @@ body {
   border-bottom: 2px solid #68685A;
 }
 
-
-/*#right, #left {
-  max-width: 50%;
-  margin: 0px;
-  padding: 0px;
-}
-
-#left {
-  float: left;
-  height: 100vh;
-  width: 50%;
-  overflow: hidden;
-  white-space: nowrap;
-}*/
-
 .col-md-6 {
   max-width: 50vw;
 }
@@ -60,6 +45,7 @@ body {
 
 #right {
   position: relative;
+  /*z-index: -1;*/
   /*max-height: 100vh;
   max-width: 50vw;*/
 }
@@ -99,21 +85,21 @@ body {
 }
 
 #coverPhotoDiv {
-  display: block;
   position: relative;
   height: 100%;
   width: 30%;
   margin: 0 auto;
-  z-index: 0;
+  z-index: 1;
 }
 
 #tracks {
   opacity: 0.19;
   width: 100%;
   height: 100%;
-  /*margin: 0px;
-  padding: 0px;*/
-  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+  z-index: 0;
+  white-space: nowrap;
   /*position: relative;*/
 }
 
@@ -122,6 +108,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: white;
+  margin: 0 auto;
 }
 
 #playlist_header {
@@ -136,7 +123,9 @@ body {
 
 #album {
   height: 30vh;
-  width: 100vw;
+  width: 70vw;
+  margin: 0 auto;
+  display: block;
 }
 
 #bin {
@@ -144,6 +133,7 @@ body {
   width: 90vw;
   margin: 0 auto;
   border: solid 2px #1C1C1C;
+  background-color: #EEE;
   /*margin: 50px auto;*/
 }
 
