@@ -31,10 +31,6 @@ body {
   border-bottom: 2px solid #68685A;
 }
 
-.col-md-6 {
-  max-width: 50vw;
-}
-
 #track_bin {
   font-family: 'AvenirNextLTPro-Regular', sans-serif;
   margin: 250px auto 20px auto;
@@ -43,36 +39,17 @@ body {
   color: #461263;
 }
 
-#right {
-  position: relative;
-  /*z-index: -1;*/
-  /*max-height: 100vh;
-  max-width: 50vw;*/
+#left {
+  height: 100vh;
 }
 
-/*#right {
-  float: right;
-  position: relative;
-  top: 0;
-  left: 0;
+#right {
+  background: url("resources/track.jpg");
+  opacity: 0.19;
+  background-size: 100% 100%;
   height: 100vh;
-  width: 50%;
-  /*z-index: -1;
-}*/
+}
 
-/*#choose_tracks_button {
-  background-color: #353528;
-  height: 50px;
-  width: 175px;
-  border-radius: 5px;
-  padding: 0;
-  margin: 20px auto;
-  display: block;
-  text-align: center;
-  color: white;
-  font-size: 1.1em;
-  font-family: 'AvenirNextLTPro-Regular', sans-serif;
-}*/
 
 .btn {
   margin: 20px auto;
@@ -82,25 +59,6 @@ body {
   color: white;
   font-size: 1.5em;
   font-family: 'AvenirNextLTPro-Regular', sans-serif;
-}
-
-#coverPhotoDiv {
-  position: relative;
-  height: 100%;
-  width: 30%;
-  margin: 0 auto;
-  z-index: 1;
-}
-
-#tracks {
-  opacity: 0.19;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  z-index: 0;
-  white-space: nowrap;
-  /*position: relative;*/
 }
 
 /*Playlist-only*/
