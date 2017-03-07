@@ -29,10 +29,10 @@ $(document).ready(function(){
 
     // appends all cover images obtained thru GET request to allCoversDiv then appends that to album div
     $("#album").append("<div id='allCoversDiv'></div>");
-    $("#allCoversDiv").css({"height":"20vh", "width":"70vw", "margin":"0px auto", "display":"inline-block"})
+    $("#allCoversDiv").css({"height":"30vh", "width":"80vw", "margin":"0px auto", "display":"block", "overflow-x":"auto", "white-space":"nowrap"});
     data.results.map(function(l, ind){ //loop thru allCovers array of images and append
       $("#allCoversDiv").append(`<img id='playlistCover${ind+1}' src='images/${l.cover_art}'>`);
-      $(`#playlistCover${ind+1}`).css({"height":"100px", "width":"100px", "margin":"55px 3% 0 3%", "display":"inline-block"});
+      $(`#playlistCover${ind+1}`).css({"height":"150px", "width":"150px", "margin":"30px 2% 0 2%", "display":"inline-block"});
     },0);
 
     // prints each name and album to bin
