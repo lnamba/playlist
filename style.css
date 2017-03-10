@@ -20,8 +20,6 @@ body {
 .row, .col-md-12, .col-md-6 {
   margin: 0;
   padding: 0;
-  max-height: 100%;
-  max-width: 100vw;
 }
 
 #header {
@@ -39,8 +37,13 @@ body {
   color: #461263;
 }
 
+#main {
+  position: relative;
+}
+
 #left {
   height: 100vh;
+  z-index: 2;
 }
 
 #right {
@@ -48,8 +51,8 @@ body {
   opacity: 0.19;
   background-size: 100% 100%;
   height: 100vh;
+  z-index: 1;
 }
-
 
 .btn {
   margin: 20px auto;
@@ -61,7 +64,7 @@ body {
   font-family: 'AvenirNextLTPro-Regular', sans-serif;
 }
 
-/*Playlist-only*/
+  /********** Playlist-only ***********/
 #playlist {
   height: 100vh;
   width: 100vw;
@@ -76,12 +79,13 @@ body {
   font-family: 'AvenirNextLTPro-Regular', sans-serif;
   font-size: 2em;
   color: white;
-  padding: 150px 0 0 40px;
+  padding: 10% 0 0 5%;
+  /*padding: 150px 0 0 40px;*/
 }
 
 #album {
-  height: 30vh;
-  width: 85vw;
+  height: 35%;
+  width: 85%;
   margin: 0 auto;
   display: block;
 }
@@ -92,7 +96,6 @@ body {
   margin: 0 auto;
   border: solid 2px #1C1C1C;
   background-color: #EEE;
-  /*margin: 50px auto;*/
 }
 
 .btn-success {

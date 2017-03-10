@@ -1,6 +1,33 @@
-[
-  "artist":"The Police",
-  "cover_art" : "ghost_in_the_machine.jpg",
-  "id":2,
-  "title": "Ghost in the Machine",
-]
+{"results": [{
+  "id":101,
+  "title":"Tapestry",
+  "artist":"Carole King",
+  "cover_art":"stretch_images/tapestry.jpg"
+  },
+  {
+  "id":102,
+  "title":"Sgt. Pepper's Lonely Hearts Club Band",
+  "artist":"The Beatles",
+  "cover_art":"stretch_images/sgtpepper.jpg"},
+  {
+  "id":103,
+  "title":"Come Away With Me",
+  "artist":"Norah Jones",
+  "cover_art":"stretch_images/come_away_with_me.jpg"},
+  {
+  "id":104,
+  "title":"1989",
+  "artist":"Taylor Swift",
+  "cover_art":"stretch_images/1989.png"},
+  {
+  "id":105,
+  "title":"÷",
+  "artist":"Ed Sheeran",
+  "cover_art":"stretch_images/divide.jpg"},
+  {
+  "id":106,
+  "title":"Rent",
+  "artist":"Original Broadway Cast of Rent",
+  "cover_art":"stretch_images/rent.jpg"}
+  ]
+}
